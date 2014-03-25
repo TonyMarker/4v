@@ -1,13 +1,13 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta31.dtd" >
    <PATCH nodename="D:\TestProject\gittest\vvvv\4v\4veffect.v4p" systemname="4veffect" filename="D:\TestProject\gittest\vvvv\4v\4veffect.v4p">
-   <BOUNDS type="Window" left="2625" top="3195" width="11160" height="9375">
+   <BOUNDS type="Window" left="1275" top="2100" width="11160" height="9375">
    </BOUNDS>
    <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InAWindow" id="0">
    <BOUNDS type="Node" left="3600" top="5655" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Box" left="3600" top="5655" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="13365" top="945" width="11625" height="9720">
+   <BOUNDS type="Window" left="13080" top="1425" width="11625" height="9720">
    </BOUNDS>
    <PIN pinname="Layers" visible="1">
    </PIN>
@@ -107,7 +107,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="4710" top="2475" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" values="Resources\Ad.avi">
+   <PIN pinname="Input String" slicecount="1" values="..\..\Ad.avi">
    </PIN>
    <PIN pinname="Default" slicecount="1" values="|C:\video.avi || deinterlace=1 || video-filter=gradient{type=1}|">
    </PIN>
