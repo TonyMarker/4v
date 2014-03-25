@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta31.dtd" >
    <PATCH nodename="D:\TestProject\gittest\vvvv\4v\4veffect.v4p" systemname="4veffect" filename="D:\TestProject\gittest\vvvv\4v\4veffect.v4p">
-   <BOUNDS type="Window" left="1275" top="2100" width="11160" height="9375">
+   <BOUNDS type="Window" left="1320" top="1380" width="11160" height="9375">
    </BOUNDS>
    <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InAWindow" id="0">
    <BOUNDS type="Node" left="3600" top="5655" width="100" height="100">
@@ -177,5 +177,23 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="13" srcpinname="Y Output Value" dstnodeid="3" dstpinname="Loop">
+   </LINK>
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="14" systemname="IOBox (Color)">
+   <BOUNDS type="Box" left="4665" top="4890" width="1035" height="435">
+   </BOUNDS>
+   <BOUNDS type="Node" left="4665" top="4890" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Color Input" slicecount="1" values="|0.00000,0.00000,0.00000,1.00000|" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="14" srcpinname="Color Output" dstnodeid="0" dstpinname="Background Color">
+   </LINK>
+   <NODE systemname="RGB (Color Join)" nodename="RGB (Color Join)" componentmode="Hidden" id="15">
+   <BOUNDS type="Node" left="7530" top="4500" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="15" srcpinname="Output" dstnodeid="14" dstpinname="Color Input">
    </LINK>
    </PATCH>
