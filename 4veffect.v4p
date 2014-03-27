@@ -1,13 +1,13 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta31.dtd" >
    <PATCH nodename="D:\TestProject\gittest\vvvv\4v\4veffect.v4p" systemname="4veffect" filename="D:\TestProject\gittest\vvvv\4v\4veffect.v4p">
-   <BOUNDS type="Window" left="1320" top="1380" width="11160" height="9375">
+   <BOUNDS type="Window" left="1335" top="2145" width="11160" height="9375">
    </BOUNDS>
    <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InAWindow" id="0">
    <BOUNDS type="Node" left="3600" top="5655" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Box" left="3600" top="5655" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="13080" top="1425" width="11625" height="9720">
+   <BOUNDS type="Window" left="9990" top="885" width="9570" height="9720">
    </BOUNDS>
    <PIN pinname="Layers" visible="1">
    </PIN>
@@ -103,7 +103,7 @@
    <LINK srcnodeid="8" srcpinname="Output String" dstnodeid="4" dstpinname="Filename">
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="9" systemname="IOBox (String)">
-   <BOUNDS type="Box" left="4710" top="2475" width="795" height="240">
+   <BOUNDS type="Box" left="4710" top="2475" width="2940" height="240">
    </BOUNDS>
    <BOUNDS type="Node" left="4710" top="2475" width="0" height="0">
    </BOUNDS>
@@ -155,6 +155,8 @@
    </PIN>
    <PIN pinname="Behavior" slicecount="1" values="Toggle">
    </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="12" srcpinname="Y Output Value" dstnodeid="3" dstpinname="Play">
    </LINK>
@@ -183,7 +185,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="4665" top="4890" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Color Input" slicecount="1" values="|0.00000,0.00000,0.00000,1.00000|" visible="1">
+   <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.00000,0.00000,0.00000,1.00000|">
    </PIN>
    </NODE>
    <LINK srcnodeid="14" srcpinname="Color Output" dstnodeid="0" dstpinname="Background Color">
